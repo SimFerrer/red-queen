@@ -5,7 +5,7 @@ Good version :
 https://christopherabate.github.io/a11yce/
 
 Evil version :
-https://damiengomez.github.io/red-queen/
+https://simferrer.github.io/red-queen/
 
 ## File structure
 ```
