@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -99,7 +99,7 @@
                         <form>
                           <div class="input-group mb-3">
                             <div class="form-floating">
-                              <input type="email" class="form-control" id="newsletter" required="required" placeholder="nom@exemple.com">
+                              <input type="email" class="form-control" id="newsletter" required="required">
 															<button type="submit" class="btn"><i class="bi bi-search"></i></button>			   
                             </div>
                             <button class="btn btn-dark" type="submit">S'inscrire <span class="visually-hidden">à la newsletter</span></button>
@@ -124,7 +124,7 @@
               <li class="list-inline-item">
                 <form action="search.html" role="search" class="d-flex">
                   <input name="q" id="q" class="form-control" type="search" placeholder="Rechercher" aria-label="Rechercher">
-                  <button type="submit" class="btn"><i class="bi bi-search" aria-hidden="true"></i><span class="visually-hidden">Rechercher</span></button>
+                  <button type="submit" class="btn"><i class="bi bi-search" aria-hidden="true"></i></button>
                 </form>  
               </li>
               <li class="list-inline-item">
@@ -264,7 +264,7 @@
               <div class="col">
                 <div class="card h-100 border-0">
                   <div class="position-relative">
-                    <a href="#" class="stretched-link" ><img src="assets/images/product-t-shirt-1.jpg" class="card-img-top" alt="T-shirt.jpg"></a>
+                    <a href="#" class="stretched-link" aria-labelledby="tshirt1"><img src="assets/images/product-t-shirt-1.jpg" class="card-img-top" alt="T-shirt.jpg"></a>
                     <div class="card-img-overlay">
                       <ul class="list-unstyled position-absolute top-0 end-0 m-3">
                         <li><span class="badge rounded-pill text-bg-warning">-20% <span class="visually-hidden">de réduction</span></span></li>
@@ -276,7 +276,7 @@
                     </div>
                   </div>
                   <p class="fw-bold">
-                    <small class="d-block product-name text-uppercase">T-shirt<span class="visually-hidden">16€ au lieu de 20€</span></small>
+                    <small class="d-block product-name text-uppercase" id="tshirt1">T-shirt<span class="visually-hidden">16€ au lieu de 20€</span></small>
                     <span class="d-block product-price" ><s class="fw-normal">20€</s> 16€</span> 
                   </p>
                 </div>
@@ -284,7 +284,7 @@
               <div class="col">
                 <div class="card h-100 border-0">
                   <div class="position-relative">
-                    <a href="#" class="stretched-link" aria-label="T-shirt violet 20€"><img src="assets/images/product-t-shirt-2.jpg" tabindex="2" class="card-img-top" alt=""></a>
+                    <a href="#" class="stretched-link" aria-labelledby="tshirt2"><img src="assets/images/product-t-shirt-2.jpg" tabindex="2" class="card-img-top" alt=""></a>
                     <div class="card-img-overlay">
                       <div class="position-absolute top-50 start-50 translate-middle">
                         <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter T-shirt violet aux favoris"></i></button>
@@ -293,7 +293,7 @@
                     </div>
                   </div>
                   <p class="fw-bold">
-                    <small class="d-block product-name text-uppercase">T-shirt<span class="visually-hidden">20€</span></small>
+                    <small class="d-block product-name text-uppercase" id="tshirt2">T-shirt<span class="visually-hidden">20€</span></small>
                     <span class="d-block product-price" >20€</span> 
                   </p>
                 </div>
@@ -301,7 +301,7 @@
               <div class="col">
                 <div class="card h-100 border-0">
                   <div class="position-relative">
-                    <a href="#" class="stretched-link" aria-label="T-shirt bleu 20€"><img src="assets/images/product-t-shirt-3.jpg" class="card-img-top" alt=""></a>
+                    <a href="#" class="stretched-link" aria-labelledby="tshirt3"><img src="assets/images/product-t-shirt-3.jpg" class="card-img-top" alt=""></a>
                     <div class="card-img-overlay">
                       <div class="position-absolute top-50 start-50 translate-middle">
                         <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter T-shirt bleu aux favoris"></i></button>
@@ -310,7 +310,7 @@
                     </div>
                   </div>
                   <p class="fw-bold">
-                    <small class="d-block product-name text-uppercase">T-shirt<span class="visually-hidden">20€</span></small>
+                    <small class="d-block product-name text-uppercase" id="tshirt3">T-shirt<span class="visually-hidden">20€</span></small>
                     <span class="d-block product-price" >20€</span> 
                   </p>
                 </div>
@@ -318,7 +318,7 @@
               <div class="col">
                 <div class="card h-100 border-0">
                   <div class="position-relative">
-                    <a href="#" class="stretched-link" aria-label="T-shirt rouge 20€"><img src="assets/images/product-t-shirt-4-love.jpg" class="card-img-top"></a>
+                    <a href="#" class="stretched-link" aria-labelledby="tshirt4"><img src="assets/images/product-t-shirt-4-love.jpg" class="card-img-top" alt=""></a>
                     <div class="card-img-overlay">
                       <div class="position-absolute top-50 start-50 translate-middle">
                         <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter T-shirt rouge aux favoris"></i></button>
@@ -327,7 +327,7 @@
                     </div>
                   </div>
                   <p class="fw-bold">
-                    <small class="d-block product-name text-uppercase">T-shirt<span class="visually-hidden">20€</span></small>
+                    <small class="d-block product-name text-uppercase" id="tshirt4">T-shirt<span class="visually-hidden">20€</span></small>
                     <span class="d-block product-price" >20€</span> 
                   </p>
                 </div>
@@ -411,8 +411,8 @@
               <form>
                 <div class="input-group mb-3">
                   <div class="form-floating">
-                    <input type="email" class="form-control" id="newsletter" required="required" placeholder="nom@exemple.com">
-                    <label for="newsletter">Adresse email</label>
+                    <input type="email" class="form-control" id="newsletter-form" required="required" placeholder="nom@exemple.com">
+                    <label for="newsletter-form">Adresse email</label>
                   </div>
                   <button class="btn btn-dark" type="submit">S'inscrire <span>à la newsletter</span></button>
                 </div>
